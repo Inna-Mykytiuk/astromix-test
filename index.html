@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Tenor+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Markup Test</title>
+  </head>
+  <body>
+    <header class="">
+      <div class="nav-tablet">
+        <div class="logo-wrapper">
+          <img src="./assets/images/logo.png" alt="logo" class="logo" />
+          <p class="logo-text">beta</p>
+        </div>
+        <button class="btn-open" type="button" aria-label="menu button open">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="15"
+            viewBox="0 0 30 15"
+            fill="none"
+          >
+            <path d="M0 0H30V1H0V0Z" fill="white" />
+            <path d="M10 7H30V8H25H20H10V7Z" fill="white" />
+            <path d="M4 14H30V15H4V14Z" fill="white" />
+          </svg>
+        </button>
+        <button class="btn-close" type="button" aria-label="menu button close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="23"
+            viewBox="0 0 24 23"
+            fill="none"
+          >
+            <path d="M23 1L1 22M23 22L1 1" stroke="white" />
+          </svg>
+        </button>
+      </div>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Lab</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Products</a>
+            <svg width="15" height="15" class="arrow-icon">
+              <use href="./assets/icons/icon-set.svg#icon-arrowWhite"></use>
+            </svg>
+          </li>
+          <li class="nav-item">
+            <a href="#">Messages</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Settings</a>
+            <svg width="15" height="15" class="arrow-icon">
+              <use href="./assets/icons/icon-set.svg#icon-arrowWhite"></use>
+            </svg>
+          </li>
+          <li class="nav-item">
+            <a href="#">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Help</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="header-text">Astromix © 2018 – 2020</p>
+    </header>
+
+    <main>
+      <section class="content-section">
+        <div class="content">
+          <div class="content-header">
+            <h1 class="content-title">Products</h1>
+            <div class="button-block btn-group">
+              <button type="button" aria-label="grid button" class="btn-icon" id="view-grid">
+                <svg width="15" height="15" class="icon-btn">
+                  <use href="./assets/icons/icon-set.svg#grid-1"></use>
+                </svg>
+              </button>
+              <button type="button" aria-label="list button" class="btn-icon" id="view-list">
+                <svg width="15" height="15" class="icon-btn">
+                  <use href="./assets/icons/icon-set.svg#list-1"></use>
+                </svg>
+              </button>
+              <button type="button" aria-label="grid button" class="btn-icon" id="view-grid-2">
+                <svg width="15" height="15" class="icon-btn">
+                  <use href="./assets/icons/icon-set.svg#grid-2"></use>
+                </svg>
+              </button>
+              <button type="button" aria-label="list button" class="btn-icon" id="view-list-2">
+                <svg width="15" height="15" class="icon-btn">
+                  <use href="./assets/icons/icon-set.svg#list-2"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="card-content js-grid">
+            <article class="card-item">
+              <svg width="15" height="15" class="card-icon">
+                <use href="./assets/icons/icon-set.svg#circles"></use>
+              </svg>
+              <div class="card-item__content">
+                <a href="#">
+                  <h2 class="card-title">Product Name</h2>
+                </a>
+                <p class="card-text">Text about product</p>
+              </div>
+            </article>
+            <article class="card-item">
+              <svg width="15" height="15" class="card-icon">
+                <use href="./assets/icons/icon-set.svg#icon-calendar"></use>
+              </svg>
+              <div class="card-item__content">
+                <a href="#">
+                  <h2 class="card-title">Product Name</h2>
+                </a>
+                <p class="card-text">Text about product</p>
+              </div>
+            </article>
+            <article class="card-item">
+              <svg width="15" height="15" class="card-icon">
+                <use href="./assets/icons/icon-set.svg#icon-calendar-2"></use>
+              </svg>
+              <div class="card-item__content">
+                <a href="#">
+                  <h2 class="card-title">Product Name</h2>
+                </a>
+                <p class="card-text">Text about product</p>
+              </div>
+            </article>
+            <article class="card-item">
+              <svg width="15" height="15" class="card-icon">
+                <use href="./assets/icons/icon-set.svg#icon-bag"></use>
+              </svg>
+              <div class="card-item__content">
+                <a href="#">
+                  <h2 class="card-title">Product Name</h2>
+                </a>
+                <p class="card-text">Text about product with few linef of text</p>
+              </div>
+            </article>
+            <article class="card-item">
+              <svg width="15" height="15" class="card-icon star">
+                <use href="./assets/icons/icon-set.svg#icon-star"></use>
+              </svg>
+              <div class="card-item__content">
+                <a href="#">
+                  <h2 class="card-title">Product Name</h2>
+                </a>
+                <p class="card-text">Text about product</p>
+              </div>
+            </article>
+            <article class="card-item">
+              <svg width="15" height="15" class="card-icon">
+                <use href="./assets/icons/icon-set.svg#icon-handshaking"></use>
+              </svg>
+              <div class="card-item__content">
+                <a href="#">
+                  <h2 class="card-title">Product Name</h2>
+                </a>
+                <p class="card-text">Text about product</p>
+              </div>
+            </article>
+            <article class="card-item">
+              <svg width="15" height="15" class="card-icon">
+                <use href="./assets/icons/icon-set.svg#icon-mastermind"></use>
+              </svg>
+              <div class="card-item__content">
+                <a href="#">
+                  <h2 class="card-title large">Product Name few lines</h2>
+                </a>
+                <p class="card-text">Text about product</p>
+              </div>
+            </article>
+            <article class="card-item">
+              <svg width="15" height="15" class="card-icon">
+                <use href="./assets/icons/icon-set.svg#icon-doors"></use>
+              </svg>
+              <div class="card-item__content">
+                <a href="#">
+                  <h2 class="card-title">Product Name</h2>
+                </a>
+                <p class="card-text">Text about product</p>
+              </div>
+            </article>
+          </div>
+          <p class="content-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
